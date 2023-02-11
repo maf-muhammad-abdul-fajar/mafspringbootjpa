@@ -1,7 +1,7 @@
-package edu.fajar._01springbootrestapi.handler;
+package com.juaracoding.mafspringbootjpa.handler;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import edu.paul._01springbootrestapi.utils.ConstantMessage;
+import com.juaracoding.mafspringbootjpa.utils.ConstantMessage;
 import org.springframework.http.HttpStatus;
 
 import java.time.LocalDateTime;

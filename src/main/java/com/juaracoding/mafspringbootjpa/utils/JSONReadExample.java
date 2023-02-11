@@ -1,4 +1,4 @@
-package edu.fajar._01springbootrestapi.utils;
+package com.juaracoding.mafspringbootjpa.utils;
 
 import java.io.FileReader;
 import java.util.Iterator;

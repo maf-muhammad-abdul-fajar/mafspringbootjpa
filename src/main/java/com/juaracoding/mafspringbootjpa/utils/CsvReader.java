@@ -1,4 +1,4 @@
-package edu.fajar._01springbootrestapi.utils;
+package com.juaracoding.mafspringbootjpa.utils;
 
 
 import org.springframework.web.multipart.MultipartFile;

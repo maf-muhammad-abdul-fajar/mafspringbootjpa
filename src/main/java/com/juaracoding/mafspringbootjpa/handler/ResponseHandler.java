@@ -1,4 +1,4 @@
-package edu.fajar._01springbootrestapi.handler;
+package com.juaracoding.mafspringbootjpa.handler;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,6 +1,6 @@
-package edu.fajar._01springbootrestapi.utils;
+package com.juaracoding.mafspringbootjpa.utils;
 
-import edu.paul._01springbootrestapi.handler.ResourceNotFoundException;
+import com.juaracoding.mafspringbootjpa.handler.ResourceNotFoundException;
 import org.springframework.util.FileCopyUtils;
 import org.springframework.util.ResourceUtils;
 

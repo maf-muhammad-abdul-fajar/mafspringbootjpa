@@ -1,6 +1,6 @@
-package edu.fajar._01springbootrestapi.handler;
+package com.juaracoding.mafspringbootjpa.handler;
 
-import edu.paul._01springbootrestapi.utils.ConstantMessage;
+import com.juaracoding.mafspringbootjpa.utils.ConstantMessage;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpHeaders;

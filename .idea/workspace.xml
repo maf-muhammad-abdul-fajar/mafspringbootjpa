@@ -5,7 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bb5d8d3-4bd8-46c6-a131-67d7f0846407" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/configuration/ConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/configuration/ConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/configuration/MainConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/configuration/MainConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/configuration/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/configuration/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/core/Crypto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/core/Crypto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/core/SMTPCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/core/SMTPCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/handler/ApiError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/handler/ApiError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/handler/ApiValidationError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/handler/ApiValidationError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/handler/FormatValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/handler/FormatValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/handler/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/handler/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/handler/ResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/handler/ResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/utils/ConstantMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/utils/ConstantMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/utils/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/utils/CsvReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/utils/JSONReadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/utils/JSONReadExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/utils/JSONWriteExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/utils/JSONWriteExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/utils/ReadTextFileSB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/paul/_01springbootrestapi/utils/ReadTextFileSB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +37,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -30,9 +59,40 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/new springboot/mafspringbootjpa/src/main/resources"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\new springboot\mafspringbootjpa\src\main\resources" />
+      <recent name="D:\new springboot\mafspringbootjpa\src\main\java\edu\fajar\_01springbootrestapi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.fajar._01springbootrestapi" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Crypto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.juaracoding.mafspringbootjpa.core.Crypto" />
+      <module name="mafspringbootjpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juaracoding.mafspringbootjpa.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Crypto" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

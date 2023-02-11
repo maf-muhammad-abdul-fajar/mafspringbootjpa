@@ -1,4 +1,4 @@
-package edu.fajar._01springbootrestapi.handler;
+package com.juaracoding.mafspringbootjpa.handler;
 
 import lombok.Data;
 

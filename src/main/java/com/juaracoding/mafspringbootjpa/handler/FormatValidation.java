@@ -1,6 +1,6 @@
-package edu.fajar._01springbootrestapi.handler;
+package com.juaracoding.mafspringbootjpa.handler;
 
-import edu.paul._01springbootrestapi.utils.ConstantMessage;
+import com.juaracoding.mafspringbootjpa.utils.ConstantMessage;
 
 import java.util.regex.Pattern;
 

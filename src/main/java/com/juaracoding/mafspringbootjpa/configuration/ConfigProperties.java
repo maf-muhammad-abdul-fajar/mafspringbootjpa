@@ -1,6 +1,6 @@
-package edu.fajar._01springbootrestapi.configuration;
+package com.juaracoding.mafspringbootjpa.configuration;
 
-import edu.paul._01springbootrestapi.core.Crypto;
+import com.juaracoding.mafspringbootjpa.core.Crypto;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

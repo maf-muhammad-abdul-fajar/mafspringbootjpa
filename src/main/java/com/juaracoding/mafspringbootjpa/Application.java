@@ -1,4 +1,4 @@
-package edu.fajar._01springbootrestapi;
+package com.juaracoding.mafspringbootjpa;
 
 
 import org.springframework.boot.SpringApplication;
