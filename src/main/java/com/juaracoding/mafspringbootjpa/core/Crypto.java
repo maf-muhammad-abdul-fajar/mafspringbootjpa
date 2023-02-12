@@ -12,8 +12,12 @@ public class Crypto {
     /*
         this is defualt encrypt key : mmfd12f438hyu52538b479e2089ddec2f06kh58faafd12f6
         this is defualt encrypt key : bbfd12f438dbf52538b479e2089ddec2g06cb58faafd12f6
+
+        Ini Default key saya (encrypt key) : bbfd12f438dbf52538b479e2089ddec2g06cb58faafd12f6
      */
-	private static String defaultKey = "aafd24f416cae52539b479e2089ddec2f06cb58faafd12f6";
+
+
+    private static String defaultKey = "aafd24f416cae52539b479e2089ddec2f06cb58faafd12f6";
     public static String performEncrypt(String keyText, String plainText) {
         try{
             byte[] key = Hex.decode(keyText.getBytes());
@@ -54,11 +58,11 @@ public class Crypto {
 
     public static void main(String[] args) {
 
-        String strToEncrypt = "fajar01";//put text to encrypt in here
+        String strToEncrypt = "";//put text to encrypt in here
         String encryptionResult = new Crypto().performEncrypt(strToEncrypt);
         System.out.println("Encryption Result : "+encryptionResult);
 
-        String strToDecrypt = "0f6babc01cf7e0e05038474f014bebc4";//put text to decrypt in here
+        String strToDecrypt = ""; //put text to decrypt in here
         String decriptionResult = new Crypto().performDecrypt(strToDecrypt);
         System.out.println("Decryption Result : "+decriptionResult);
     }
