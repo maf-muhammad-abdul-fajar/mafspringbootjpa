@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7bb5d8d3-4bd8-46c6-a131-67d7f0846407" name="Changes" comment=" update springbootjpa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <recent name="edu.fajar._01springbootrestapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Crypto">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.juaracoding.mafspringbootjpa.Application" />
       <module name="mafspringbootjpa" />
@@ -87,8 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Crypto" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Crypto" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676289530505</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" update springbootjpa">
+      <created>1676290001460</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676290001460</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
