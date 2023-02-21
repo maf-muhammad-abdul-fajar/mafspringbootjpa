@@ -1,0 +1,20 @@
+package com.juaracoding.mafspringbootjpa.repo;
+
+/*
+Created By IntelliJ IDEA 2022.2.3 (Community Edition)
+Build #IU-222.4345.14, built on October 5, 2022
+@Author Asus a.k.a. muhammad abdul fajar
+Java Developer
+Created on 2/18/2023 10:31 AM
+@Last Modified 2/18/2023 10:31 AM
+Version 1.0
+*/
+import com.juaracoding.mafspringbootjpa.model.Person;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface PersonRepo extends JpaRepository<Person,Long> {
+
+//    List<Person> findByFirstName(String val);
+}

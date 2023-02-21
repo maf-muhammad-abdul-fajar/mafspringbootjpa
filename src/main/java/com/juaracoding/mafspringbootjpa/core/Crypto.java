@@ -10,14 +10,13 @@ import org.bouncycastle.util.encoders.Hex;
 public class Crypto {
 
     /*
-        this is defualt encrypt key : mmfd12f438hyu52538b479e2089ddec2f06kh58faafd12f6
-        this is defualt encrypt key : bbfd12f438dbf52538b479e2089ddec2g06cb58faafd12f6
+        this is default encrypt key : mmfd12f438hyu52538b479e2089ddec2f06kh58faafd12f6
+        this is default encrypt key : bbfd12f438dbf52538b479e2089ddec2g06cb58faafd12f6
 
-        Ini Default key saya (encrypt key) : bbfd12f438dbf52538b479e2089ddec2g06cb58faafd12f6
+        Ini Default key saya (encrypt key) : aafd28f416cae52539b479e2089ddec2f06cb58faafd12f6
      */
 
-//    aafd24f416cae52539b479e2089ddec2f06cb58faafd12f6
-    private static String defaultKey = "";
+    private static String defaultKey = "aafd28f416cae52539b479e2089ddec2f06cb58faafd12f6";
     public static String performEncrypt(String keyText, String plainText) {
         try{
             byte[] key = Hex.decode(keyText.getBytes());
