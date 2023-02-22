@@ -5,12 +5,13 @@ Created By IntelliJ IDEA 2022.2.3 (Community Edition)
 Build #IU-222.4345.14, built on October 5, 2022
 @Author Asus a.k.a. muhammad abdul fajar
 Java Developer
-Created on 2/18/2023 10:18 AM
-@Last Modified 2/18/2023 10:18 AM
+Created on 2/22/2023 12:08 PM
+@Last Modified 2/22/2023 12:08 PM
 Version 1.0
 */
-import com.juaracoding.mafspringbootjpa.model.Provinsi;
-import com.juaracoding.mafspringbootjpa.repo.ProvinsiRepo;
+
+import com.juaracoding.mafspringbootjpa.model.Person;
+import com.juaracoding.mafspringbootjpa.repo.PersonRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -18,25 +19,25 @@ import java.util.List;
 
 @Service
 @Transactional
-public class ProvinsiService {
+public class PersonService{
 
-    private ProvinsiRepo provinsiRepo;
+    private PersonRepo personRepo;
     private String [] strExceptionArr = new String[2];
 
 
     @Autowired
-    public ProvinsiService(ProvinsiRepo provinsiRepo) {
-        strExceptionArr[0] = "ProvinsiService";
-        this.provinsiRepo = provinsiRepo;
+    public PersonService(PersonRepo personRepo) {
+        strExceptionArr[0] = "PersonService";
+        this.personRepo = personRepo;
     }
     @Transactional(rollbackFor = Exception.class)
-    public void saveProvinsi(Provinsi provinsi){
+    public void savePerson(Person person){
 
-        provinsiRepo.save(provinsi);
+        personRepo.save(person);
 
     }
     @Transactional(rollbackFor = Exception.class)
-    public void saveAllProvinsi(List<Provinsi> listProvinsi){
-        provinsiRepo.saveAll(listProvinsi);
+    public void saveAllPerson(List<Person> listPerson){
+        personRepo.saveAll(listPerson);
     }
 }

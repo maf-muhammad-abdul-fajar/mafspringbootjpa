@@ -4,37 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bb5d8d3-4bd8-46c6-a131-67d7f0846407" name="Changes" comment=" update springbootjpa">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/configuration/OtherConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/controller/PersonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/controller/ProvinsiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/controller/categoryProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/dto/CategoryProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/dto/ProvinsiDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/model/CategoryProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/model/MstTugasA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/model/Peserta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/model/Provinsi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/model/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/repo/CategoryProductRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/repo/PersonRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/repo/ProvinsiRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/repo/TestRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/service/CategoryProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/service/ProvinsiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/service/TestServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/utils/CostantMessageBu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/utils/LoggingFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Log4j.properties.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/other.properties.properties" afterDir="false" />
+    <list default="true" id="7bb5d8d3-4bd8-46c6-a131-67d7f0846407" name="Changes" comment=" update springbootjpa &gt; mstTugasA">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/dto/PersonalDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/service/PersonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/core/Crypto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/core/Crypto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/configuration/OtherConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/configuration/OtherConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/controller/ProvinsiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/controller/ProvinsiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/dto/ProvinsiDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/model/Provinsi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/model/Provinsi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/service/ProvinsiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/service/ProvinsiService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/utils/ConstantMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/utils/ConstantMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/utils/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/utils/CsvReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/utils/JSONReadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/utils/JSONReadExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/utils/JSONWriteExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/utils/JSONWriteExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/utils/LoggingFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/utils/LoggingFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/utils/ReadTextFileSB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/mafspringbootjpa/utils/ReadTextFileSB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Log4j.properties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/other.properties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676292119032</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=" update springbootjpa &gt; mstTugasA">
+      <created>1676976073833</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676976073833</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -220,16 +216,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springbootjpa" />
     <MESSAGE value=" update springbootjpa" />
-    <option name="LAST_COMMIT_MESSAGE" value=" update springbootjpa" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.io.FileNotFoundException" package="java.io" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value=" update springbootjpa &gt; mstTugasA" />
+    <option name="LAST_COMMIT_MESSAGE" value=" update springbootjpa &gt; mstTugasA" />
   </component>
 </project>

@@ -1,9 +1,9 @@
 package com.juaracoding.mafspringbootjpa.utils;
 
-
 import org.springframework.web.multipart.MultipartFile;
 
 public class CsvReader {
+
 
     public static boolean isCsv(MultipartFile multipartFile)
     {

@@ -10,6 +10,16 @@ Version 1.0
 */
 
 import javax.persistence.*;
+import com.juaracoding.mafspringbootjpa.utils.ConstantMessage;
+import org.hibernate.validator.constraints.Length;
+
+import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
+import java.time.LocalDate;
+import java.time.Period;
+import java.util.Date;
+
+
 @Entity
 @Table(name = "MstPerson")
 

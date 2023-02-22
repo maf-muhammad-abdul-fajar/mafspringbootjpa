@@ -11,6 +11,7 @@ import java.nio.charset.StandardCharsets;
 
 
 public class ReadTextFileSB {
+
     private FileInputStream fInput;
     private BufferedInputStream bInput;
     private String[] exceptionString = new String[2];
@@ -57,7 +58,7 @@ public class ReadTextFileSB {
 
     public static void main(String[] args) throws ResourceNotFoundException {
         ReadTextFileSB rtfSB = new ReadTextFileSB("\\data\\MailHTMLExample.txt");
-		System.out.println("STRING => "+rtfSB.getContentFile());
-		System.out.println("BYTE FILE => "+rtfSB.getByteOfFile());
-	}
+        System.out.println("STRING => "+rtfSB.getContentFile());
+        System.out.println("BYTE FILE => "+rtfSB.getByteOfFile());
+    }
 }

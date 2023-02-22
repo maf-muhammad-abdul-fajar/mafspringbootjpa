@@ -14,6 +14,7 @@ public class ConstantMessage {
 
     /*CONTENT TYPE*/
     public final static String CONTENT_TYPE_CSV = "text/csv";
+
     public final static String CONTENT_TYPE_XLS = "application/vnd.ms-excel";
     public final static String CONTENT_TYPE_XLSX = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
 
@@ -39,6 +40,7 @@ public class ConstantMessage {
     public final static String WARNING_DATA_EMPTY = "DATA TIDAK ADA";
 
     public final static String ERROR_DATA_INVALID = "DATA TIDAK VALID";
+    public final static String ERROR_SAVE_FAILED = "DATA GAGAL DISIMPAN";
     public final static String ERROR_INTERNAL_SERVER = "INTERNAL SERVER ERROR";
     public final static String ERROR_MAIL_FORM_JSON = "Malformed JSON request";
     public final static String ERROR_EMAIL_FORMAT_INVALID = "FORMAT EMAIL TIDAK SESUAI (Nomor/Karakter@Nomor/Karakter)";
@@ -62,5 +64,7 @@ public class ConstantMessage {
     public final static String WARNING_CATPROD_DESC_CANNOT_EMPTY  = "DESKRIPSI KATEGORI PRODUK TIDAK BOLEH KOSONG";
     public final static String WARNING_CATPROD_MAX_LENGTH_DESC  = "MAKSIMAL DESKRIPSI KATEGORI PRODUK ADALAH 500 KARAKTER !";
 
-    public final static String ERROR_SAVE_FAILED = "DATA GAGAL DISIMPAN";
+    /*
+     */
+
 }
